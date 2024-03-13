@@ -1,0 +1,38 @@
+body{
+    background: url('/image/esquadrão.jpeg');
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.central{
+    width: 400px;
+    height: 150px;
+    background: rgba(248, 248, 248, 0.39);
+    border-radius: 18px;
+    box-shadow: 3px 3px 10px black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+.central div{
+    width: 120px;
+    height: 120px;
+    background: black;
+    color: rebeccapurple;
+    font-size: 80px;
+    border-radius: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.central span{
+    font-size: 80px;
+}
