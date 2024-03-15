@@ -6,6 +6,12 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
+    gap: 30px;
+}
+
+img{
+    height: 200px;
 }
 
 
@@ -35,4 +41,62 @@ body{
 
 .central span{
     font-size: 80px;
+}
+
+.tempo{
+    width: 190px;
+    height: 30px;
+    background: rgba(248, 248, 248, 0.39);
+    border-radius: 18px;
+    box-shadow: 3px 3px 10px black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+.tempo div{
+    width: 65px;
+    height: 70px;
+    background: rgba(0, 0, 0, 0);
+    color: rgb(15, 20, 80);
+    font-size: 30px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tempo span{
+    font-size: 35px;
+}
+
+.mensagem {
+    width: 190px;
+    height: 30px;
+    background: rgba(248, 248, 248, 0.39);
+    border-radius: 18px;
+    box-shadow: 3px 3px 10px black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+.mensagem div{
+    width: 40px;
+    height: 60px;
+    background: rgba(0, 0, 0, 0);
+    color: rgb(15, 20, 80);
+    font-size: 30px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.mensagem p{
+    font-size: 45px;
+    color: rebeccapurple;
 }
