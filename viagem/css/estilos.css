@@ -1,0 +1,52 @@
+body{
+    height: 100vh;
+    background: url(/image/moon3.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.central{
+    width: 350px;
+    height: 300px;
+    border-radius: 20px;
+    box-shadow: 3px 3px 8px black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.central input{
+    width: 280px;
+    height: 20px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+
+.central button{
+    width: 120px;
+    height: 40px;
+    border: none;
+    outline: none;
+    border-radius: 15px;
+    background: white;
+    font-size: 15px;
+    color: black;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+
+.central button:hover{
+    color: greenyellow;
+    background: darkorange;
+}
+
+.central span{
+    font-size: 18px;
+    color: greenyellow;
+}
