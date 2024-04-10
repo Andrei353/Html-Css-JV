@@ -1,0 +1,52 @@
+body{
+    height: 100vh;
+    background: url(/image/academia.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.central{
+   height: 450px;
+   width: 350px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   background: linear-gradient(blue, cyan, rgb(84, 173, 247));
+   box-shadow: 3px 3px 8px black;
+   border-radius: 10px;
+   gap: 10px;
+}
+
+
+
+.central input{
+    height: 35px;
+    width: 175px;
+    border: 2px solid darkblue;
+    border-radius: 6px;
+}
+
+.central button{
+    height: 25px;
+    width: 125px;
+    font-size: 15px;
+    background: rgb(49, 143, 250);
+    color: black;
+    border: 2px solid darkblue;
+    border-radius: 6px;
+}
+
+.central h1{
+    font-size: 18px;
+    color: white;
+
+}
+
+.central span{
+  font-size: 25px;
+  color: white;
+}
