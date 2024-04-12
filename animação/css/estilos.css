@@ -1,0 +1,51 @@
+body{
+    background: url('/image/fundo.jpg');
+    background-size: cover;
+}
+
+#carro{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background: url(/image/car.png);
+    background-size: contain;
+    top: 0;
+    left: 0;
+    animation: move 2.5s ease-out;
+}
+
+
+@keyframes dirigir{
+    from{transform: translateX(100px);}
+    to{transform: translateX(2000px);}
+}
+
+@keyframes move{
+    0%{
+        top: 0;
+        left: 0;
+    } 
+
+    100%{
+       top: 400px;
+       left: 800px;
+    }
+}
+
+
+
+
+
+
+
+/*
+
+@keyframes andarGirar{
+    0%{transform: translateX(0px) rotate(0deg);}
+    100%{transform:  translateX(800px) rotate(300deg);}
+}
+    
+@keyframes girar{
+    0%{transform: rotate(0deg);}
+    100%{transform: rotate(360deg);}
+}
