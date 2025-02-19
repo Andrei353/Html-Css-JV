@@ -1,0 +1,64 @@
+:root{
+--mauveine: rgb(177, 12, 253);
+--indigo-dye: rgb(20, 37, 53);
+--vermilion: rgb(192, 10, 0);
+--maize: #fee648ff;
+--dark-orange-web: #fe8b14ff;
+--papaya-whip: #ffecceff;
+--ivory: rgb(194, 194, 194);
+--medium-blue: #041bc9ff;
+--kelly-green: #04b316ff;
+}
+
+@font-face {
+    font-family: king;
+    src: url('/image/King.otf');
+}
+
+body{
+    background:linear-gradient( var(--indigo-dye), var(--ivory));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+
+}
+
+img{
+    width: 200px;
+    border-radius: 50%;
+    border: 5px solid var(--vermilion);
+}
+
+.central{
+    width: 40%;
+    background: var(--ivory);
+    border-radius: 20px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 3px 3px 15px var(--indigo-dye);
+}
+
+hr{
+    width: 100%;
+    height: 10px;
+    background-color: var(--vermilion);
+    border: none;
+    outline: none;
+    border-radius: 10px;
+
+}
+
+h1{
+    text-transform: uppercase;
+}
+
+h2{
+    font-family: king;
+    font-size: 45px;
+    font-weight: 100;
+    margin: 0;
+}
