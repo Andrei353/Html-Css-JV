@@ -1,0 +1,103 @@
+/* Desktop - Responsividade */
+
+:root{
+--silver: rgb(240, 240, 240);
+--raisin-black: #272525ff;
+--dim-gray: #bdbdbd;
+--jet: #383635ff;
+--coffee: #68442dff;
+}
+
+@font-face {
+    font-family: Silvette;
+    src: url(/image/Silvestte.otf);
+}
+
+@font-face {
+    font-family: Lathin;
+    src: url(/image/Lathin.otf);
+}
+
+
+body{
+    background: linear-gradient(var(--jet), var(--dim-gray));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+img{
+    width: 200px;
+    border-radius: 50%;
+    border: 5px solid var(--coffee);
+}
+
+.central{
+    width: 40%;
+    background: var(--raisin-black);
+    border-radius: 30px;
+    border: 5px solid var(--coffee);
+    padding: 25px;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 3px 3px 15px var(--raisin-black);
+}
+
+hr{
+    width: 100%;
+    height: 5px;
+    background-color: var(--silver);
+    border: none;
+    outline: none;
+    border-radius: 10px;
+}
+
+h1 {
+    color: var(--silver);
+    font-family: Silvette;
+    font-size: 60px;
+    font-weight: 100;
+    margin: 0;
+}
+h2{
+    color: var(--silver);
+    text-transform: uppercase;
+}
+
+p{
+    color: var(--silver);
+    font-size: 15px;
+    font-weight: 450;
+    margin: 0;
+}
+
+/* Table - Responsividade */
+
+/* 
+    Max-Widht -> abaixo de x valor 
+    Min-Widht -> acima de x valor
+*/
+@media(max-width:1024px) and (min-width:720px){
+    body{
+        background: var(--silver);
+    }
+
+    .central{
+        width: 50%;
+    }
+}
+
+/* Mobile - Responsividade */
+@media(max-width:720px){
+    body{
+        background: var(--coffee);
+    }
+
+    .central{
+        width: 70%;
+    }
+} 
