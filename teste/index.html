@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo de Sistema com Erros para Correção</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<h1>Sistema de Correção de Erros</h1>
+<p>Este sistema continha erros que foram corrigidos</p>
+
+<div>
+    <h2>Função de Cálculo corrigido:</h2>
+
+    <label for="">Digite o 1º Numero</label>
+    <input type="numeric" id="num1" placeholder="Ex: 5">
+    <label for="">Digite o 2º Numero</label>
+    <input type="numeric" id="num2" placeholder="Ex: 5">
+    <p id="resultado"></p>
+    <button onclick="fixCalc()">Calcular</button>
+</div>
+
+<div>
+    <h2>Formulario corrigido</h2>
+    <label for="nome">Nome:</label>
+    <input type="text" id="nome" placeholder="Ex:Fulano">
+    <label for="telefone">Telefone:</label>
+    <input type="text" id="telefone" placeholder="Ex: 123456789">
+    <label for="email">Email:</label>
+    <input type="text" id="email" placeholder="Ex: fulano12@exemplo.com">
+    <button onclick="fixFormValidation()">Validar</button>
+</div>
+
+<div class="form-section">
+    <h3>Documento de Manutenção</h3>
+    <form id="maintenance-form">
+        <label for="date">Data da Manutenção:</label>
+        <input type="date" id="date" required>
+        <label for="error-type">Manutenção:</label>
+        <input type="text" id="error-type" value="Corretiva" readonly>
+        <label for="description">Descrição da Manutenção:</label>
+        <textarea id="description" required></textarea>
+        <label for="responsible">Responsável:</label>
+        <input type="text" id="responsible" required>
+        <button type="button" onclick="generateReport()"> Gerar</button>
+    </form>
+</div>
+
+<script src="js/script.js"></script>
+</body>
+</html>

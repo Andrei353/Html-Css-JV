@@ -1,0 +1,35 @@
+@charset "UTF-8";
+*{
+    margin: 5;
+    padding: 5;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, sans-serif;
+}
+
+h2{
+    margin-top: 20px;
+}
+
+.form-section {
+    margin-top: 20px;
+}
+input, textarea {
+    width: 95vw;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+}
+button {
+    width: 40vw;
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 15px;
+}
